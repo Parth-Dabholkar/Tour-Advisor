@@ -1,0 +1,367 @@
+body
+{
+    background-image: url(subtle-prism.png);
+    background-attachment: fixed;
+
+}
+.navbar
+{
+    background-color: white;
+    height: 110px;
+    box-shadow:0 0.5em 0.5em -0.4em grey;
+}
+.navbar-brand
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    font-family:'Pacifico', cursive;
+}
+#brandname
+{
+    width : 85px;
+    height: 85px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.nav-link
+{
+    border-left: solid 1px gray;
+}
+#List
+{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Nunito' , sans-serif;
+    color: black;
+}
+#item
+{
+    color: black;
+    margin-left: 100px;
+}
+#item:hover
+{
+    color:gray;
+}
+#carouselExampleIndicators
+{
+    height: 49rem;
+}
+#image
+{
+    height: 49rem;
+}
+#cap
+{
+    background-color: black;
+    opacity: 0.7;
+    font-size: x-large;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Nunito' , sans-serif;
+}
+.contain
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contain2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photo-card-1
+{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width :70rem;
+    height: 30rem;
+    margin : 2rem;
+    border-radius: 2rem;
+    box-shadow:0 0.5em 0.5em -0.4em grey;
+}
+.card-1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height : 28.3rem;
+    padding: 0 0.5rem 0 0.5rem;
+    border-right: solid 1px lightgray;
+}
+.card-1 a
+{
+    display: block;
+    height: fit-content;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: solid none 1px;
+    background-color: #FBCE2C;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.25s;
+}
+.card-1 a:hover
+{
+    color:white;
+    background-color: orange;
+    transform: scale(1.2);
+    box-shadow:0 0.5em 0.5em -0.4em #457b9d;
+}
+.card-1 h2
+{
+    display: block;
+    margin: auto;
+    padding: 1rem 4rem 1rem 4rem;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+.photo-1
+{
+    margin : 1rem 1rem 1.5rem 1rem;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+.info-1
+{
+    padding: 2rem;
+}
+.info-1 p
+{
+    font-size: larger;
+    font-family: 'Nunito', sans-serif;
+    padding: 1rem;
+}
+.info-1 ul
+{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Nunito' , sans-serif;
+}
+
+
+
+.photo-card-2
+{
+    display : flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -0.5rem;
+    background-color: white;
+    width :70rem;
+    height: 30rem;
+    margin : 2rem;
+    border-radius: 2rem;
+    box-shadow:0 0.5em 0.5em -0.4em grey;
+}
+.card-2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height : 28.3rem;
+    padding: 0 0.5rem 0 0.5rem;
+    border-left: solid 1px lightgray;
+}
+.card-2 a
+{
+    display: block;
+    height: fit-content;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: solid none 1px;
+    background-color: #FBCE2C;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.25s;
+}
+.card-2 a:hover
+{
+    color:white;
+    background-color: orange;
+    transform: scale(1.2);
+    box-shadow:0 0.5em 0.5em -0.4em #457b9d;
+}
+.card-2 h2
+{
+    display: block;
+    margin: auto;
+    padding: 1rem 4rem 1rem 4rem;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+.photo-2
+{
+    margin : 1rem 1rem 1.5rem 1rem;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+.info-2
+{
+    padding: 2rem;
+}
+.info-2 p
+{
+    font-size: larger;
+    font-family: 'Nunito', sans-serif;
+    padding: 1rem;
+}
+.info-2 ul
+{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Nunito' , sans-serif;
+}
+.attract img
+{
+    width: 20rem;
+    height: 20rem;
+}
+.Head
+{
+    width: 22rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+    right: -71vh;
+    bottom: -2rem;
+}
+.l
+{
+    background-color: purple;
+    color: white;
+    box-shadow:0 0.5em 0.5em -0.4em black;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    border-radius: 0.4rem;
+}
+.login-contain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login-Container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    width: 50rem;
+    height: 30rem;
+    box-shadow:0 0.5em 0.5em -0.4em black;
+    position: relative;
+    bottom: -3rem;
+}
+.Image-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27rem;
+    border-right: 1px solid lightgrey;
+    padding: 1.2rem;
+}
+.Travel
+{
+    width: 20rem;
+    height: 20rem;
+}
+.Former
+{
+    height: 25rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.getName label
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.getName input
+{
+    width : 18rem;
+}
+.getRem label
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 1rem 0 1.4rem 0;
+}
+.Login-btn a
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.8rem;
+    color: white;
+    font-size: 1.4rem;
+    border: 1px solid none;
+    background-color: #FBCE2C;
+    border-radius: 0.5rem;
+    box-shadow:0 0.5em 0.5em -0.4em black;
+    transition: all 0.25s;
+}
+.Login-btn a:hover
+{
+    color:white;
+    background-color: orange;
+    transform: scale(1.2);
+    box-shadow:0 0.5em 0.5em -0.4em #457b9d;   
+}
+
+.Galleria
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Galleria img
+{
+    width: 30rem;
+    height: 30rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow:0 0.5em 0.5em -0.4em black;
+    transition: all 0.5s;
+}
+.Galleria img:hover
+{
+
+    background-color: black;
+    transform: scale(1.1);
+}

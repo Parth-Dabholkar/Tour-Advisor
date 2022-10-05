@@ -1,0 +1,135 @@
+body{
+    background-color: #a8dadc;
+    margin:0px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin:0px;
+    background-color: #457b9d;
+    padding-bottom: 10px;
+}
+#Header{
+    text-decoration: none;
+    color: black;
+    font-size:50px;
+    font-weight: 700;
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin: 2px 2px;
+    letter-spacing: 3px;
+}
+#Sign{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    padding:5px;
+    border-radius: 25px;
+    background-color: #1d3557;
+    transition: all 0.3s;
+}
+#Sign:hover{
+    color:white;
+    background-color: #fb8500;
+    transform: scale(1.2);
+    box-shadow:0 0.5em 0.5em -0.4em #457b9d;
+}
+main{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:80vh;
+}
+.box{
+    width:270px;
+    height:500px;
+    padding: 5px;
+    border:1px #f1faee solid;
+    background-color: #f1faee;
+    border-radius: 15px;
+}
+.box li{
+    list-style:none;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.box ul{
+    padding-left: 0px;
+}
+.box ul li:before{
+    content: '✓';
+    background-color: #a8dadc;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+h2.title{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    height: 45px;
+    border-bottom: 1px lightgrey solid;
+    text-align: center;
+}
+h2.price{
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height:56px;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:grey;
+    font-weight: 300;
+    padding-bottom: 30px;
+    border-bottom: 1px lightgrey solid;
+}
+ div.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Premium{
+    text-decoration: none;
+    color:white;
+    background-color: #1d3557;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 35px 5px 35px;
+    font-size:x-large;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+#Premium:hover{
+    color:white;
+    background-color: #e63946;
+    transform: scale(1.2);
+    box-shadow:0 0.5em 0.5em -0.4em #457b9d;
+}
+.UL2{
+   height: 175px;
+}
+.UL3{
+    height: 175px;
+}
+.UL4{
+    height:175px;
+}
+footer{
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
